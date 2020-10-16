@@ -1,0 +1,42 @@
+body {
+  background: radial-gradient(#0d7377, #212121);
+  font-family: "Courier Prime", monospace;
+}
+
+#menu-container {
+  background: linear-gradient(90deg, #0d7377, #eeeeee, #0d7377);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+  height: 450px;
+  width: 400px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nav {
+  align-content: center;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.nav-link {
+  color: #212121;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.nav-link:hover {
+  background-color: #32e0c4;
+  color: #eeeeee;
+  font-weight: bolder;
+}

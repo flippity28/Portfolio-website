@@ -1,0 +1,108 @@
+body {
+  background-color: #212121;
+  font-family: "Courier Prime", monospace;
+}
+.jumbotron {
+  margin: 70px auto;
+  background-color: #32e0c4;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #eeeeee;
+  width: 80%;
+  height: 350px;
+}
+h1 {
+  color: #0d7377;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s steps(40, end);
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.lead {
+  text-align: center;
+  width: 80%;
+  color: #32e0c4;
+  margin: 0 auto;
+  animation: appear;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+@keyframes appear {
+  from {
+    color: #32e0c4;
+  }
+  to {
+    color: #eeeeee;
+  }
+}
+.description {
+  text-align: center;
+  width: 80%;
+  color: #32e0c4;
+  margin: 0 auto;
+  animation: appearTwo;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+}
+@keyframes appearTwo {
+  from {
+    color: #32e0c4;
+  }
+  to {
+    color: #eeeeee;
+  }
+}
+hr {
+  background-color: #0d7377;
+}
+.btn {
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  border: none;
+  transition: 300ms ease-in-out;
+  border-radius: 8px;
+  opacity: 0.9;
+  animation: showButton;
+  animation-duration: 0.1s;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+}
+@keyframes showButton {
+  from {
+    color: #32e0c4;
+    background-color: #32e0c4;
+  }
+  to {
+    background-color: #0d7377;
+    color: #eeeeee;
+    box-shadow: 0px 0px 20px #eeeeee;
+  }
+}
+.btn:hover {
+  background-color: #eeeeee;
+
+  color: #0d7377;
+  font-size: 22px;
+  width: 170px;
+  box-shadow: 3px 3px 10px #0d7377;
+}
+.btn:active {
+  background-color: #eeeeee;
+
+  color: #0d7377;
+  font-size: 22px;
+  width: 170px;
+  box-shadow: 3px 3px 10px #0d7377;
+}
